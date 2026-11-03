@@ -1,0 +1,7 @@
+# Keep .git: the image must hold the full history (SPEC §6.2 item 2). Prune only local build output.
+src/build
+**/*.o
+**/*.pb.cc
+**/*.pb.h
+**/*.capnp.c++
+**/*.capnp.h
